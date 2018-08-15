@@ -15,23 +15,23 @@ import javax.swing.JPanel;
 public class MyFirstSwingGUI {
 	public static void main(String[] args) {
 		//1. Create and initialize an object of the JFrame class
-
+JFrame JFrame = new JFrame();
 		//2. Set your JFrame object to be visible
-
+JFrame.setVisible(true);
 		//3. Run your program. Do you see your window? It's probably very small.
 		
 		//4. Set the default close operation to JFrame.EXIT_ON_CLOSE
-
+JFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//5. Create and initialize an object of the JPanel class
-
+JPanel JPanel = new JPanel();
 		//6. Create and initialize an object of the JLabel class
-
+JLabel JLabel = new JLabel();
 		//7. Set the text of the JLabel to a lovely greeting.
-
+JLabel.setText("Good Afternoon!");
 		//8. Add the JPanel object to the JFrame
-
+JPanel.add(JFrame);
 		//9. Add the JLabel object to the JPanel
-
+JPanel.add(JLabel);
 		//10. Pack your JFrame.
 
 		//11. Run your program again. Do you see your message.
